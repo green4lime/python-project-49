@@ -4,7 +4,7 @@ def run_game(game, name):
     print(game()[2])
 
     for round in range(ROUNDS_COUNT):
-        (expression, result,) = game()
+        (expression, result, _) = game()
         print(f"Question: {expression}")
         answer = input("Your answer:  ")
         if str(answer) == str(result):
