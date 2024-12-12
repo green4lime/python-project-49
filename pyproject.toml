@@ -6,6 +6,7 @@ authors = ["lime <green4lime@gmail.com>"]
 readme = "README.md"
 packages = [
   { include = "brain_games" },
+  { include = "brain_games/games" },
 ]
 
 
@@ -25,3 +26,4 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
 brain-even = "brain_games.scripts.brain_even:main"
+brain-calc = "brain_games.scripts.brain_calc:main"

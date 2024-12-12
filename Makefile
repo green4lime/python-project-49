@@ -20,3 +20,8 @@ publish:
 
 make lint:
 	poetry run flake8 brain_games
+
+upgrade:
+	pip uninstall hexlet-code -y
+	make build
+	make package-install
