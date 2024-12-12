@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-from brain_games.welcome import welcome_user
-from brain_games.run_game import run_game
 from brain_games.games.prime import game_prime
+from brain_games.run_game import run_game
+from brain_games.welcome import welcome_user
 
 
 def main():
