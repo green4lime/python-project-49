@@ -1,7 +1,6 @@
 import random
 
-
-instruction = 'Answer "yes" if the number is even, otherwise answer "no".'
+INSTRUCTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def generate_question_answer():

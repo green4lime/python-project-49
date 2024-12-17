@@ -1,7 +1,6 @@
 from random import randrange as rd
 
-
-instruction = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+INSTRUCTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def generate_question_answer():

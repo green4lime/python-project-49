@@ -1,7 +1,6 @@
 from random import randrange as rd
 
-
-instruction = "What number is missing in the progression?"
+INSTRUCTION = "What number is missing in the progression?"
 
 
 def generate_question_answer():

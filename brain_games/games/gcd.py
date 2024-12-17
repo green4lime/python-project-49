@@ -1,8 +1,7 @@
 import random
 from math import gcd
 
-
-instruction = 'Find the greatest common divisor of given numbers.'
+INSTRUCTION = 'Find the greatest common divisor of given numbers.'
 
 
 def generate_question_answer():
