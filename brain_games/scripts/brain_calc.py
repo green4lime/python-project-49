@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
+from brain_games.games.calc import INSTRUCTION, generate_question_answer
 from brain_games.run_game import run_game
-from brain_games.games.calc import INSTRUCTION
-from brain_games.games.calc import generate_question_answer
 
 
 def main():
