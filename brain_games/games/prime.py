@@ -1,11 +1,13 @@
 from random import randrange as rd
 
 
-def game_prime():
-    instr = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+instruction = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
+
+def generate_question_answer():
     question = rd(300)
     result = "yes" if is_prime(question) else "no"
-    return (question, result, instr)
+    return (question, result)
 
 
 def is_prime(n):

@@ -1,10 +1,13 @@
+from brain_games.welcome import welcome_user
 
-def run_game(game, name):
+
+def run_game(generate_question_answer, instruction):
     ROUNDS_COUNT = 3
-    print(game()[2])
+    name = welcome_user()
+    print(instruction)
 
     for round in range(ROUNDS_COUNT):
-        (expression, result, _) = game()
+        (expression, result) = generate_question_answer()
         print(f"Question: {expression}")
         answer = input("Your answer:  ")
         if str(answer) == str(result):
