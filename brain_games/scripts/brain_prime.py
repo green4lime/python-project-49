@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-from brain_games.games.prime import generate_question_answer
-from brain_games.games.prime import instruction
+from brain_games.games.prime import generate_question_answer, instruction
 from brain_games.run_game import run_game
 
 
